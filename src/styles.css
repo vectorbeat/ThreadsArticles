@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: #5cb8e6;
+  color: #4a93b7;
 }
 .btn-primary {
   background-color: #e6737e;
@@ -26,9 +26,14 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 300;
 }
-
+.text-call-out {
+  font-weight: 700;
+  background-color: teal;
+}
 .left-content {
   background-color: #c8e4f4;
 }
@@ -52,6 +57,12 @@ h3 {
   padding: 10px;
 }
 
+.card {
+  margin-bottom: 20px;
+}
+.card-body {
+  font-size: 13px;
+}
 ul {
   padding-left: 0;
 }
@@ -65,14 +76,16 @@ li {
   font-size: 13px;
   background-color: #475c66;
 
-  font-weight: 300;
+  font-weight: 400;
   width: 100%;
   text-align: left;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .link-type-icon {
   padding-right: 5px;
+  font-size: 14px;
 }
 
 .colors {
